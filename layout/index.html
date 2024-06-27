@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="icon" href="../img/book.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+            <div class="container-fluid">
+              <a class="navbar-brand fw-bold fs-2 text-wrap text-white" href="#">Books</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse mx-2" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white fs-5" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light fs-5" href="#about">About</a>
+                  <li class="nav-item">
+                    <a class="nav-link text-light fs-5" href="#book">Book</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <section class="home bg-body-secondary pb-5" id="home">
+            <div class="container py-5">
+              <div class="row align-items-center justify-content-center">
+                <div class="col-12 col-lg-6 text-center">
+                  <h1 class="display-4 fs-1">Mari Membaca Buku</h1>
+                  <p class="lead">Temukan Buku Kesukaan Mu</p>
+                  <a class="btn btn-primary px-3 py-1 custom-btn fw-bold" href="#book">Let's Go</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          <section class="about" id="about">
+            <div class="container py-5">
+                <div class="text-center py-3 my-5 mx-auto hayuk">
+                    <h1>About</h1>
+                </div>
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active c-item">
+                        <img src="../img/buku coba.jpg" class="d-block w-100 c-img" alt="Slide 1">
+                        <div class="carousel-caption top-0 mt-4">
+                            <p class="mt-5 fs-2 fw-bold text-uppercase">Minat Baca</p>
+                            <p>Kami percaya bahwa membaca adalah jendela dunia. Website ini dirancang khusus untuk menumbuhkan minat baca anak-anak melalui berbagai keunggulan</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item c-item">
+                        <img src="../img/buku 2.jpg" class="d-block w-100 c-img" alt="Slide 2">
+                        <div class="carousel-caption top-0 mt-4">
+                            <p class="mt-5 fs-2 fw-bold text-uppercase">History</p>
+                            <p>Website ini lahir dari semangat untuk meningkatkan minat baca di 
+                                kalangan anak-anak. Dimulai dengan visi untuk menyediakan platform yang edukatif dan menyenangkan, kami berkomitmen untuk membentuk 
+                                generasi yang gemar membaca dan memiliki pengetahuan luas. Sejak awal, kami percaya bahwa membaca adalah kunci untuk membuka pintu dunia, 
+                                dan kami ingin membuat proses ini menarik dan mudah diakses oleh anak-anak di seluruh Indonesia.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item c-item">
+                        <img src="../img/buku 3.jpg" class="d-block w-100 c-img" alt="Slide 3">
+                        <div class="carousel-caption top-0 mt-4">
+                            <p class="mt-5 fs-2 fw-bold text-uppercase">Pengetahuan</p>
+                            <p>Website ini tidak hanya menyajikan cerita-cerita menarik, tetapi juga menyediakan beragam pengetahuan yang dapat memperkaya wawasan anak-anak.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="book" id="book">
+          <div class="container py-5">
+              <div class="text-center py-3 my-5 mx-auto hayuk">
+                  <h1>Book Page</h1>
+              </div>
+              <div class="ayu justify-content-center text-center">
+                  <input id="searchbar" onkeyup="searchBook()" type="text" name="search" placeholder="Cari Judul Buku...">
+              </div>
+              <div class="row align-items-center justify-content-center">
+                  <div class="card mb-3 mx-2" style="width: 20rem;">
+                      <img src="../img/kancil.jpg" class="card-img-top w-100" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title text-primary">Si Kancil</h5>
+                          <p class="card-text">Si kancil merupakan cerita rakyat ia sering digambarkan sebagai seekor kancil yang cerdas, licik, dan penuh akal.</p>
+                          <a href="../book/kancil.html" class="btn px-5">baca</a>
+                      </div>
+                  </div>
+                  <div class="card mb-3 mx-2" style="width: 20rem;">
+                      <img src="../img/malin kundang.jpeg" class="card-img-top w-100" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title text-primary">Malin Kundang</h5>
+                          <p class="card-text">Malin Kundang adalah karakter utama dalam salah satu legenda terkenal dari Sumatra Barat, Indonesia. Kisahnya adalah tentang seorang anak durhaka yang mendapatkan hukuman karena tidak menghormati ibunya.</p>
+                          <a href="../book/malin.html" class="btn px-5">baca</a>
+                      </div>
+                  </div>
+                  <div class="card mb-3 mx-2" style="width: 20rem;">
+                      <img src="../img/bawang.jpg" class="card-img-top w-100" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title text-primary">Bawang Merah & Bawang Putih</h5>
+                          <p class="card-text">Bawang Merah & Bawang Putih Kisah ini mirip dengan cerita Cinderella dan mengandung pesan moral tentang kebaikan hati dan keadilan.</p>
+                          <a href="../book/bawang.html" class="btn px-5">baca</a>
+                      </div>
+                  </div>
+                  <div class="card mb-3 mx-2" style="width: 20rem;">
+                      <img src="../img/toba.jpeg" class="card-img-top w-100" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title text-primary">Danau Toba</h5>
+                          <p class="card-text">Danau Toba Berdasarkan legendanya Danau Toba mengisahkan seorang pemuda bernama Toba yang bekerja sebagai petani dan pemancing ikan di sungai.</p>
+                          <a href="../book/toba.html" class="btn px-5">baca</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+    </header>  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     <script>
+        function searchBook() {
+            let input = document.getElementById('searchbar').value.toLowerCase();
+            let cards = document.getElementsByClassName('card');
+            for (let i = 0; i < cards.length; i++) {
+                let h5 = cards[i].getElementsByTagName('h5')[0];
+                if (h5.innerHTML.toLowerCase().includes(input)) {
+                    cards[i].style.display = ""; 
+                } else {
+                    cards[i].style.display = "none"; 
+                }
+            }
+        }
+    </script>
+    
+</body>
+</html>
